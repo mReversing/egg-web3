@@ -1,0 +1,29 @@
+{
+  "name": "egg-web3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmez/egg-web3.git"
+  },
+  "keywords": [
+    "egg",
+    "web3",
+    "ethereum"
+  ],
+  "author": "callme-z@qq.com",
+  "bugs": {
+    "url": "https://github.com/callmez/egg-web3/issues"
+  },
+  "homepage": "https://github.com/callmez/egg-web3#readme",
+  "eggPlugin": {
+    "name": "web3"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.34",
+    "web3-provider-engine": "^14.0.6"
+  }
+}
